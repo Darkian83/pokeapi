@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import { useSelector } from "react-redux";
 import useFetch from "../hooks/useFetch";
-import PokeCard from "../components/PokedexPage/pokeCard";
+import PokeCard from "../components/PokedexPage/PokeCard";
 import SelectType from "../components/PokedexPage/SelectType";
 import Pagination from "../components/Pagination";
 import logo from "../assets/logo.png";
